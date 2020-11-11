@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example BootStrap Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fontawesome-free/css/all.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      a {
+        text-decoration-line: none;
+      }
+      * {
+        margin:0;
+        padding:0;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    </head>
+<body class="bg-light">
+
+ <header>
+    <!-- Nav Bar Configurations -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <img src="images/macstock.png" alt="Logo" class="float-left sliper" width="50px" height="50px">
+        <a class="navbar-brand text-light" href="#">MacStock Official</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item disabled">
+              <a class="nav-link text-light" >Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item text-light" href="#">Action</a>
+                <a class="dropdown-item text-light" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-light" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#contact_us" >Contact Us</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <!-- Nav Bar End -->
+
+      <!-- Image Slider -->
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/liver.jpg" alt="Liver Image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/blade_images.jpg" alt="Balde Image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/amazing_images.jpg" alt="Amazing Image">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+      <!-- Image Slider End --> 
+    </header>
+
+<!-- About Us  -->
+    <section>
+    <div class="container-fluid">
+      <h1 class="text-center pt-5">About Us</h1>
+      <hr class="w-50 mx-auto bg-danger mb-5">
+
+      <div class="row mb-5">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="images/mountains.jpg" alt="Mountains Image" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <h2 class="text-center">Who are We?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque hic, voluptates, error eaque aperiam enim in provident molestias aliquam voluptate totam, explicabo laboriosam quaerat iure non ab aspernatur tenetur voluptatum?
+            Accusamus in dolore accusantium architecto provident necessitatibus delectus ab, quo ex? Illo laboriosam debitis, omnis dolore sit obcaecati, doloremque excepturi libero placeat impedit ut, beatae aut doloribus nisi amet at?
+            Veniam neque sit est velit, distinctio itaque. Quae, doloribus? Tempore iure, debitis non aliquam omnis perferendis repellat reiciendis saepe, voluptate facere aliquid voluptatum culpa quibusdam illum. Totam minus nulla recusandae.
+            Et exercitationem obcaecati quos nostrum accusamus debitis quod deserunt explicabo rerum sapiente eos consectetur non provident atque expedita reprehenderit tempora facilis excepturi placeat laborum modi, inventore officia asperiores. Ducimus, veritatis.</p>
+          </div>
+      </div>
+    </section>
+<!-- About Us End -->
+
+    <!-- Services Section -->
+
+    <section>
+    <div class="container-fluid">
+      <h1 class="text-center pt-5">What We Offer in this Website</h1>
+      <hr class="w-50 mx-auto bg-danger mb-5">
+
+    <div class="row mb-5">
+
+      <div class="col-lg-4 col-md-4 col-12">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="images/mountains.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Coding Projects</h4>
+            <p class="card-text">We Provide Many Types of Programming Language Programs Source codes and We also Offer Websites Codes for Free</p>
+            <a href="#" class="btn btn-primary">Browse Coding Projects</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="images/man.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Paid Games For Free</h4>
+            <p class="card-text">We Provide Many Types of Games for free, if you want to download all type of Games For Absolutely Free, then Visit this Page</p>
+            <a href="#" class="btn btn-primary">Browse Free Games</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="images/mountains.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Error Fixing Contents</h4>
+            <p class="card-text">We Provide Many Types of Problem Solving Contents, so if you are facing errors in Pythonor Related to Computers, then Visit this Page</p>
+            <a href="#" class="btn btn-primary">Browse Error Solving</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+    <!-- Services End -->
+<!-- Contact Us -->
+    <section class="bg-warning mx-5" id="contact_us">
+
+      <article class="py-5 text-center">
+        <div class="text-light">
+          <h3 class="display-4">Contact Us</h3>
+          <p>If you Have any Queries Left, Contact Us Now!</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+  Contact Us
+</button>
+        </div>
+
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Contact Us</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              
+              <!-- Modal body -->
+              <div class="modal-body">
+              <form action="#">
+                <div class="form-group">
+                  <label for="email">Email address :-</label>
+                  <input type="email" class="form-control" placeholder="Enter Your Email Address" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="phone_no">Phone Number :-</label>
+                  <input type="number" class="form-control" placeholder="Enter Your Phone Number" id="phone_no">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message :-</label>
+                  <textarea class="form-control" placeholder="Enter the Message You Want to Send to Me" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </form>
+              </div>
+              
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+      </article>
+
+    </section>
+<!-- Contact Us End-->
+
+<!-- Gallery Starts Here -->
+  <div class="container-fluid">
+    <h1 class="text-center pt-5">Gallery</h1>
+    <hr class="w-50 mx-auto bg-danger mb-5">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-12 mb-4">
+        <img src="images/man.jpg" alt="Example Image" class="img-fluid">
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 mb-4">
+        <img src="images/mountains.jpg" alt="Example Image" class="img-fluid">
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 mb-4">
+        <img src="images/man.jpg" alt="Example Image" class="img-fluid">
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 mb-4">
+        <img src="images/mountains.jpg" alt="Example Image" class="img-fluid">
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 mb-4">
+        <img src="images/man.jpg" alt="Example Image" class="img-fluid">
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 mb-4">
+        <img src="images/mountains.jpg" alt="Example Image" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyrights -->
+  <footer>
+    <h2 class="text-center reddish">Follow Us On</h4>
+    <div class="text-center">
+      <a href="https://twitter.com/KunalGu77984717"target = "_blank" class="pol"><i class="fa fa-twitter fa-3x"></i></a>
+      <a href="https://www.youtube.com/channel/UCIXud9Ot8pfDQizzdmQ-FyQ" target = "_blank" class="yt"><i class="fa fa-youtube fa-3x"></i></a>
+      <a href="https://github.com/Kunal767"target = "_blank" class="gt"><i class="fa fa-github fa-3x"></i></a>
+    </div> 
+    <br>
+    <br>
+  </footer>
+    <div>
+      <h2 class="bg-dark text-light text-center">Copyrights &copy; MacStockOfficial.com | All Rights Reserved | 2020-2026</h2>
+    </div> -->
+  <!-- Copyrights End -->
+
+
+<!-- Gallery Ends Here -->
+    <!-- JavaScripts Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
